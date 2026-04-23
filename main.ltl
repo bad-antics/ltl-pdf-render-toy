@@ -1,0 +1,15 @@
+// ltl-pdf-render-toy/main.ltl
+//
+// Minimal PDF rasteriser (text + simple vector paths).
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-pdf-render-toy v0.1.0")
+    io::println("Minimal PDF rasteriser (text + simple vector paths).")
+    0
+}
